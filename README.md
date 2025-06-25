@@ -1,32 +1,52 @@
-# 📘 @karthiknambiar/readmd
+# 📘 readmd
 
-CLI tool that auto-generates a README.md from your project files
+> �� CLI tool that auto-generates a professional `README.md` for your project, based on actual files like `package.json`, `.env`, folder structure, and scripts.
 
----
-
-## 🧱 Tech Stack
-
-| Technology | Description |
-|------------|-------------|
-| Nodejs | JavaScript runtime for backend development |
-| JavaScript | Programming language for web apps |
+![npm version](https://img.shields.io/npm/v/@karthik2370/readmd?color=brightgreen\&style=flat-square)
+![license](https://img.shields.io/npm/l/@karthik2370/readmd?style=flat-square)
+![npm](https://img.shields.io/npm/dt/@karthik2370/readmd?style=flat-square)
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
 
-Install dependencies:
+* 📆 Auto-detects folder structure
+* ⚙️ Reads package scripts and environment variables
+* 🔍 Detects tech stack (Node.js, React, Flask, etc.)
+* 🧱 Outputs a clean and formatted `README.md`
+* 🧠 Smart defaults — works even with minimal setup
+
+---
+
+## 💡 Pro Tip
+
+Want to test it instantly?
+
 ```bash
-npm install
+npx @karthik2370/readmd
 ```
 
-Run the app:
-```bash
-npm run dev
+This runs it without installing globally.
+
+---
+
+## 📂 Project Structure Detection
+
+`readmd` auto-maps your folder structure into a readable format like:
+
+```
+📆 my-app
+ꞣ 📂 public
+ꞣ 📂 src
+ꞣ ┗ 📂 components
+ꞣ ┗ 📜 index.js
+ꞣ 📜 package.json
+ꞣ 📜 .env
+ꞣ 📜 README.md
 ```
 
 ---
 
 ## 📄 License
 
-MIT
+MIT © [Karthik Nambiar](https://github.com/Karthik2370)
